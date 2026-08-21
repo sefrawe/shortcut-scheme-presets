@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Windows系统默认快捷键方案",
-    "description": "包含Windows 11/10系统核心默认快捷键，用于冲突检测分析。\n来源：Microsoft Support官方文档\nhttps://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec\n一个bug：0打开开始菜单cmd与22打开放大镜cmd++被认为冲突。所以先禁用打开开始菜单",
+    "description": "包含Windows 11/10系统核心默认快捷键，用于冲突检测分析。此方案快捷键均未绑定动作，都能用是Windows系统在监听和执行。\n来源：Microsoft Support官方文档\nhttps://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
     "startupEnabled": false,
-    "conflictDetectionMode": "关闭",
+    "conflictDetectionMode": "仅此方案内",
     "currentProfileId": 0
   },
   "shortcuts": [
@@ -14,7 +14,7 @@
       "keyCombination": "cmd",
       "action": "",
       "actionParams": {},
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1,
@@ -209,7 +209,7 @@
       "id": 22,
       "name": "打开放大镜",
       "description": "打开放大镜工具",
-      "keyCombination": "cmd++",
+      "keyCombination": "cmd+plus",
       "action": "",
       "actionParams": {},
       "enabled": true
