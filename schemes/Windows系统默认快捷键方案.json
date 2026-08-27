@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Windows系统默认快捷键方案",
-    "description": "包含Windows 11/10系统核心默认快捷键，用于冲突检测分析。此方案快捷键均未绑定动作，都能用是Windows系统在监听和执行。\n来源：Microsoft Support官方文档\nhttps://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+    "description": "包含Windows 11/10系统核心默认快捷键，用于冲突检测分析。此方案快捷键均未绑定动作，都能用是Windows系统在直接监听和执行。\n来源：Microsoft Support官方文档\nhttps://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
     "startupEnabled": false,
     "conflictDetectionMode": "仅此方案内",
     "currentProfileId": 0
@@ -209,7 +209,7 @@
       "id": 22,
       "name": "打开放大镜",
       "description": "打开放大镜工具",
-      "keyCombination": "cmd+plus",
+      "keyCombination": "cmd+=",
       "action": "",
       "actionParams": {},
       "enabled": true
@@ -254,7 +254,7 @@
       "id": 27,
       "name": "全屏截图保存",
       "description": "捕获全屏截图并保存到文件",
-      "keyCombination": "cmd+prtscn",
+      "keyCombination": "cmd+print_screen",
       "action": "",
       "actionParams": {},
       "enabled": true
@@ -299,7 +299,7 @@
       "id": 32,
       "name": "安全屏幕",
       "description": "切换到安全屏幕，可锁定、切换用户、打开任务管理器等",
-      "keyCombination": "ctrl+alt+del",
+      "keyCombination": "ctrl+alt+delete",
       "action": "",
       "actionParams": {},
       "enabled": true
@@ -362,7 +362,7 @@
       "id": 39,
       "name": "向上移动一个屏幕",
       "description": "在文档或页面中向上移动一个屏幕",
-      "keyCombination": "alt+pageup",
+      "keyCombination": "alt+page_up",
       "action": "",
       "actionParams": {},
       "enabled": true
@@ -371,7 +371,7 @@
       "id": 40,
       "name": "向下移动一个屏幕",
       "description": "在文档或页面中向下移动一个屏幕",
-      "keyCombination": "alt+pagedown",
+      "keyCombination": "alt+page_down",
       "action": "",
       "actionParams": {},
       "enabled": true
